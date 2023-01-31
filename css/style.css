@@ -1,0 +1,212 @@
+nav .navbar {
+    background-color: aquamarine;
+}
+
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../aset_gambar/ban.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    height: 500px;
+    background-size: cover;
+  }
+  header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  section#contact {
+  
+    background-image: url("../assets/img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  section#contact .section-heading {
+    color: #fff;
+  }
+  section#contact form#contactForm .form-group {
+    margin-bottom: 1.5rem;
+  }
+  section#contact form#contactForm .form-group input,
+  section#contact form#contactForm .form-group textarea {
+    padding: 1.25rem;
+  }
+  
+section#contact form#contactForm .form-group input.form-control {
+    height: auto;
+  }
+  section#contact form#contactForm .form-group-textarea {
+    height: 100%;
+  }
+  section#contact form#contactForm .form-group-textarea textarea {
+    height: 100%;
+    min-height: 10rem;
+  }
+  section#contact form#contactForm p.help-block {
+    margin: 0;
+  }
+  section#contact form#contactForm .form-control:focus {
+    border-color: #ffc800;
+    box-shadow: none;
+  }
+  section#contact form#contactForm ::-webkit-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #1a1a1b;
+  }
+  section#contact form#contactForm :-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #131414;
+  }
+  section#contact form#contactForm :-ms-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #17181a;
+  }
+
+  .about {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../aset_gambar/foto8.jpg) left center no-repeat;
+    background-size: cover;
+  
+}
+.footer {
+  color: #1227a0;
+}
+
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  color: #1227a0;
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: .3s;
+}
+.copyright {
+  color: #B0B9AE;
+}
+
+.copyright {
+  background: #111111;
+}
+
+/*** Testimonial ***/
+.testimonial-item {
+  box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+  transition: .5s;
+}
+
+.owl-item .testimonial-item,
+.testimonial-item * {
+  transition: .5s;
+}
+
+.owl-item.center .testimonial-item,
+.testimonial-item:hover {
+  background: var(--primary);
+}
+
+.owl-item.center .testimonial-item *,
+.testimonial-item:hover * {
+  color: #FFFFFF !important;
+}
+
+.testimonial-item img {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 100px;
+}
+
+.testimonial-carousel .owl-nav {
+  position: absolute;
+  top: -100px;
+  right: 0;
+  display: flex;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+  margin-left: 15px;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary);
+  border-radius: 55px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .15);
+  font-size: 25px;
+  transition: .5s;
+}
+
+.testimonial-carousel .owl-nav .owl-prev:hover,
+.testimonial-carousel .owl-nav .owl-next:hover {
+  background: var(--primary);
+  color: #FFFFFF;
+}
+
+.scroll-top {
+  z-index:9999;
+  position:fixed; 
+  bottom:2.5%;
+  right:4%;
+}
+.scroll-top i {
+  color:#fff;
+  -moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50px;
+	text-align:center;
+	font-size:20px;
+  background-color: #999;
+  padding: 10px 12px 14px;
+}
+.scroll-top i:hover {
+  background-color:#000;
+}
+.login {
+  padding: 1em;
+  margin: 2em auto;
+  width: 700px;
+  background: #3498db;
+  border-radius: 3px;
+}
+ 
+label {
+  font-size: 10pt;
+  color: #555;
+}
+ 
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 8px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+ 
+.tombol {
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+}
